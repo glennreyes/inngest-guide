@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 export async function GET() {
   // Send your event payload to Inngest
   await inngest.send({
-    name: "test/hello.bizarre.world",
+    name: "test/hello.world",
     data: {
       email: "testFromNext@example.com",
     },
